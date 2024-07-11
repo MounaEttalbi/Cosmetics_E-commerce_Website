@@ -7,7 +7,7 @@ import java.sql.SQLException;
 public class ConnectionFactory {
 	private static final String URL = "jdbc:mysql://localhost:3306/ecommerce";
     private static final String USERNAME = "user";
-    private static final String PASSWORD = "mouna12345";
+    private static final String PASSWORD = "password";
 
     public static Connection getConnection() throws SQLException {
         Connection connection = null;
